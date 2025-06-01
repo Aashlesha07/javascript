@@ -12,8 +12,10 @@ div{
     background-color: aquamarine;
 } */
 
+
+
 /* tic tac toe game */
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -62,7 +64,7 @@ h1{
     padding: 1.25rem;
     color: white;
 }
-#new-btn{
+#winner-new-btn{
     height:  7vmin;
     width: 40vmin;
     border-radius: 1rem;
@@ -96,4 +98,52 @@ h1{
     padding: 1.25px;
     background-color: #011C27;
     color: whitesmoke;
+} */
+
+
+
+
+/* Stone, Paper and Scissors */
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    text-align: center;
+}
+img{
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 50%;
+    object-fit: cover;
+}
+img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+h1{
+    padding: 1.25rem;
+}
+.score-board{
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 30px;
+}
+#result{
+    height: 8vmin;
+    width: 35vmin;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+#result:hover{
+    opacity: 50%;
+}
+
